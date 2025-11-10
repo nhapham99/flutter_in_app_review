@@ -1,0 +1,29 @@
+name: flutter_in_app_review
+description: "A new Flutter package project."
+
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  in_app_review_platform_interface:
+    path: ./in_app_review_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.np.flutter_in_app_review
+        pluginClass: InAppReviewPlugin
+      ios:
+        pluginClass: InAppReviewPlugin
