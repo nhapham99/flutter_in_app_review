@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_in_app_review (1.0.0):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_in_app_review (from `.symlinks/plugins/flutter_in_app_review/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_in_app_review:
+    :path: ".symlinks/plugins/flutter_in_app_review/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_in_app_review: e397c46478463ebc5260dc19046391ce1bf0a44a
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
+
+PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
+
+COCOAPODS: 1.16.2
